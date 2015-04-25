@@ -1,0 +1,13 @@
+Git notes
+
+git init (initialize - makes a .git directory and sets you up)
+
+workflow:
+add (puts it on the stage)
+commit -m (commit with notes)
+make changes, repeat
+
+branch (make branch)
+checkout (get on the branch)
+
+log (see your git history)

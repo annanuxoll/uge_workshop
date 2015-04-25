@@ -1,0 +1,446 @@
+History of first part of class
+
+# what does 'cat' command do? Ask manual.
+man cat
+
+# more and less are ways to view text that's too big to print out on the command line. Exit them using 'q'
+more --help
+less --help
+more
+history | more
+
+# history creates a log of the commands you've used
+man history
+history
+history 50
+
+# some moving about using cd, pwd, and ls
+cd ..
+cd \
+cd annanuxoll/
+cd ann
+pwd
+cd De
+ls
+cd /Users
+..
+cd ~
+ls -l
+cd /
+
+# curl downloads things from the internet, switches are -fsSL with the L option redirecting if web page redirects
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+
+
+#fun with git
+git config --global user.email
+git config --global user.name
+git -v
+git --version
+echo $PATH
+subl /etc/paths
+echo $EDITOR
+find . -name "config.fish"
+subl ~/.config/fish/config.fish
+man which
+which subl
+ls -l /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+man -s
+brew search git-completion
+brew in
+fish_update_completions
+brew doctor
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew update
+ls -G
+q
+quit
+uname -a
+uname
+fish
+makeindex physicsthesis.idx
+cd chapters
+cd physicsthesis
+cd 'Google Drive'
+cd Google Drive
+makeindex physicsthesis
+makeindex physicsthesis.ind
+gem install bundler
+gem i rails --no-ri --no-rdoc
+rbenv global 2.2.0
+rbenv install 2.2.0
+source ~/.bash_profile
+echo 'export PATH="$HOME/.rbenv/shims:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+brew install rbenv rbenv-gem-rehash ruby-build
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+xcode-select --install
+casapy
+cd NGC3256_Band3_UnCalibratedMSandTablesForReduction
+NGC3256_Band3_UnCalibratedMSandTablesForReduction
+ls
+cd NGC3256_Band3_UnCalibratedMSandTablesForReduction/
+cd NGC3256
+kpsewhich commath.sty
+git git-gui
+git-gui
+git init
+git gui
+perl
+kpsewhich glossaries.sty
+cd calibrated
+cd member_ouss_2012-12-21_id/
+rm -r spw2.ms
+/Volumes/ANNANUXOLL/Thesis ; exit;
+man rm
+man -rf
+more ChapterOne.tex
+ls -la *Chapter*
+calibrated
+mv uid___A002_X5578f1_X878.ms.split.cald  uid___A002_X5578f1_X878.ms.split.cal
+cd Imaging
+mv uid___A002_X5578f1_X878.ms.split.cal ~/Imaging/uid___A002_X5578f1_X878.ms.split.cald
+mkdir Imaging
+c
+cd uid___A002_X5578f1_X878.ms.split.cal
+taskhelp listobs
+man -k listobs
+help listobs
+cd 2011.0.00820.S/sg_ouss_id/group_ouss_id/member_ouss_2012-12-21_id
+for i in $(ls *.tar); do echo 'Untarring' $i; tar xvf $i; done
+'calibrated.ms' = uid___A002_X5578f1_X878.ms.split.cal
+ls a
+man tar
+man wget
+./downloadRequest155838815script.sh
+chmod +x downloadRequest155838815script.sh
+cd Downloads/
+tar -xvzf NGC3256_Band3_UnCalibratedMSandTablesForReduction.tgz
+tar -xvzf NCG3256_Band3_CalibratedData4.1.tgz
+/Applications/CASA.app/Contents/MacOS/casapy
+ngc3256_line_target.ms ~
+~
+mv Documents/dots.pdf ~
+:edit fun.txt
+vim thesis.tex
+cd Desktop/Thesis_folder/
+gvim
+:edit hello.txt
+:
+fg
+man open
+open test.pdf
+man git
+man -k pdf
+man -k preview
+evince test.pdf
+preview test.pdf
+vim test.tex
+ls -a ~ | grep vim
+ls -a Downloads | grep vim
+ls -a Downloads | grep .vim
+ls -a .vim
+ls -a ~.vimrc
+ls -a vim
+mv Downloads/vimrc ~/.vimrc
+rm .vimrc.swp
+ls -a |grep .vimr
+rm .vimrc
+vim .vimrc
+ls -a |grep vimrc
+ls |grep vimrc
+ls Downloads/
+cd .vim
+ls Downloads | grep .pdf
+ls Downloads | grep (*).pdf
+ls Downloads | grep *.pdf
+ls Downloads | grep untitled
+ls Downloads | grep scheme
+ls Downloads
+ls vim -a
+cp -r .vim ~
+cd vim-2014-10-12/
+rm -r ~/.vim
+man mv
+ls -a vim-2014-10-12/.vim
+ls -a vim-2014-10-12/
+ls vim-2014-10-12/
+cd ~/Downloads/
+vim tex.vim
+cd ftplugin
+sh editBash.sh
+chmod +x editBash.sh
+sudo vim /etc/bashrc
+sudo nano /etc/bashrc
+man sudo
+nano /etc/bashrc
+man nano
+man gedit
+vim editBash.sh
+vim editBash.sh
+ls bash
+cd bin
+ls /etc/
+vim /etc/bashrc
+ls /etc/ | grep bash
+ls bundle/
+cp -r ~/Downloads/nerdtree ./bundle/
+ cd .vim
+vim test.beleh
+vim .v
+ mkdir -p ~/.vim/autoload ~/.vim/bundle &&     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd ../
+rm README.markdown
+rm CONTRIBUTING.markdown
+rm -r autoload
+rm -d autoload
+cd autoload/
+cp -r autoload/autoload/pathogen.vim autoload/
+cp -r autoload/autoload autoload/
+ls autoload/autoload/
+ls autoload/
+rm -r vim-pathogen-master/
+cp -r vim-pathogen-master/ autoload/
+mkdir autoload
+tar xvfpz vim-pathogen-master/
+ls vim-pathogen-master/
+sl
+tar xvfp vim-pathogen-master/
+rm -ri ~/vim-pathogen-master/
+cp -r ~/vim-pathogen-master .
+rm -r Downloads/vim-pathogen-master/
+cp -r Downloads/vim-pathogen-master .
+man curl
+mkdir .vim
+/Users/annanuxoll/Downloads/pdfcrop_v0.4b\ 3/pdfcrop ; exit;
+/Users/annanuxoll/Downloads/pdfcrop_v0.4b/pdfcrop ; exit;
+ls -l moving_around.txt
+subl moving_around.txt
+find 'Google Drive/'
+which 'Google Drive/'
+which 'Google Drive'
+which vim
+which moving_around.txt
+man find
+find moving_around.txt
+ls
+less moving_around.txt
+history > moving_around.txt
+man cat
+more --help
+less --help
+more
+history | more
+man history
+history
+history 50
+mv .git .git2
+git status
+gti status
+cd
+ls -a
+ls -A
+cd ..
+cd \
+
+cd annanuxoll/
+cd ann
+pwd
+cd De
+cd /Users
+..
+cd ~
+ls -l
+cd /
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email
+git config --global user.name
+git -v
+git --version
+echo $PATH
+subl /etc/paths
+echo $EDITOR
+find . -name "config.fish"
+subl ~/.config/fish/config.fish
+man which
+which subl
+ls -l /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+man -s
+brew search git-completion
+brew in
+fish_update_completions
+brew doctor
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew update
+ls -G
+q
+quit
+uname -a
+uname
+fish
+makeindex physicsthesis.idx
+cd chapters
+cd physicsthesis
+cd 'Google Drive'
+cd Google Drive
+makeindex physicsthesis
+makeindex physicsthesis.ind
+gem install bundler
+gem i rails --no-ri --no-rdoc
+rbenv global 2.2.0
+rbenv install 2.2.0
+source ~/.bash_profile
+echo 'export PATH="$HOME/.rbenv/shims:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+brew install rbenv rbenv-gem-rehash ruby-build
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+xcode-select --install
+casapy
+cd NGC3256_Band3_UnCalibratedMSandTablesForReduction
+NGC3256_Band3_UnCalibratedMSandTablesForReduction
+ls
+cd NGC3256_Band3_UnCalibratedMSandTablesForReduction/
+cd NGC3256
+kpsewhich commath.sty
+git git-gui
+git-gui
+git init
+git gui
+perl
+kpsewhich glossaries.sty
+cd calibrated
+cd member_ouss_2012-12-21_id/
+rm -r spw2.ms
+/Volumes/ANNANUXOLL/Thesis ; exit;
+man rm
+man -rf
+more ChapterOne.tex
+ls -la *Chapter*
+calibrated
+mv uid___A002_X5578f1_X878.ms.split.cald  uid___A002_X5578f1_X878.ms.split.cal
+cd Imaging
+mv uid___A002_X5578f1_X878.ms.split.cal ~/Imaging/uid___A002_X5578f1_X878.ms.split.cald
+mkdir Imaging
+c
+cd uid___A002_X5578f1_X878.ms.split.cal
+taskhelp listobs
+man -k listobs
+help listobs
+cd 2011.0.00820.S/sg_ouss_id/group_ouss_id/member_ouss_2012-12-21_id
+for i in $(ls *.tar); do echo 'Untarring' $i; tar xvf $i; done
+'calibrated.ms' = uid___A002_X5578f1_X878.ms.split.cal
+ls a
+man tar
+man wget
+./downloadRequest155838815script.sh
+chmod +x downloadRequest155838815script.sh
+cd Downloads/
+tar -xvzf NGC3256_Band3_UnCalibratedMSandTablesForReduction.tgz
+tar -xvzf NCG3256_Band3_CalibratedData4.1.tgz
+/Applications/CASA.app/Contents/MacOS/casapy
+ngc3256_line_target.ms ~
+~
+mv Documents/dots.pdf ~
+:edit fun.txt
+vim thesis.tex
+cd Desktop/Thesis_folder/
+gvim
+:edit hello.txt
+:
+fg
+man open
+open test.pdf
+man git
+man -k pdf
+man -k preview
+evince test.pdf
+preview test.pdf
+vim test.tex
+ls -a ~ | grep vim
+ls -a Downloads | grep vim
+ls -a Downloads | grep .vim
+ls -a .vim
+ls -a ~.vimrc
+ls -a vim
+mv Downloads/vimrc ~/.vimrc
+rm .vimrc.swp
+ls -a |grep .vimr
+rm .vimrc
+vim .vimrc
+ls -a |grep vimrc
+ls |grep vimrc
+ls Downloads/
+cd .vim
+ls Downloads | grep .pdf
+ls Downloads | grep (*).pdf
+ls Downloads | grep *.pdf
+ls Downloads | grep untitled
+ls Downloads | grep scheme
+ls Downloads
+ls vim -a
+cp -r .vim ~
+cd vim-2014-10-12/
+rm -r ~/.vim
+man mv
+ls -a vim-2014-10-12/.vim
+ls -a vim-2014-10-12/
+ls vim-2014-10-12/
+cd ~/Downloads/
+vim tex.vim
+cd ftplugin
+sh editBash.sh
+chmod +x editBash.sh
+sudo vim /etc/bashrc
+sudo nano /etc/bashrc
+man sudo
+nano /etc/bashrc
+man nano
+man gedit
+vim editBash.sh
+vim editBash.sh
+ls bash
+cd bin
+ls /etc/
+vim /etc/bashrc
+ls /etc/ | grep bash
+ls bundle/
+cp -r ~/Downloads/nerdtree ./bundle/
+ cd .vim
+vim test.beleh
+vim .v
+ mkdir -p ~/.vim/autoload ~/.vim/bundle &&     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd ../
+rm README.markdown
+rm CONTRIBUTING.markdown
+rm -r autoload
+rm -d autoload
+cd autoload/
+cp -r autoload/autoload/pathogen.vim autoload/
+cp -r autoload/autoload autoload/
+ls autoload/autoload/
+ls autoload/
+rm -r vim-pathogen-master/
+cp -r vim-pathogen-master/ autoload/
+mkdir autoload
+tar xvfpz vim-pathogen-master/
+ls vim-pathogen-master/
+sl
+tar xvfp vim-pathogen-master/
+rm -ri ~/vim-pathogen-master/
+cp -r ~/vim-pathogen-master .
+rm -r Downloads/vim-pathogen-master/
+cp -r Downloads/vim-pathogen-master .
+man curl
+mkdir .vim
+/Users/annanuxoll/Downloads/pdfcrop_v0.4b\ 3/pdfcrop ; exit;
+/Users/annanuxoll/Downloads/pdfcrop_v0.4b/pdfcrop ; exit;
